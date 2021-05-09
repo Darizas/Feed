@@ -45,7 +45,7 @@ const feed = [{
             avataras: '2.png',
             nuoroda: '#',
         },
-        laikas: 1583832434388,
+        laikas: 8000,
         pranesimas: {
             tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi',
             spalva: '',
@@ -63,7 +63,7 @@ const feed = [{
             avataras: '3.png',
             nuoroda: '#',
         },
-        laikas: 1583832434388,
+        laikas: 800000,
         pranesimas: {
             tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi . Ex earum tenetur odit nemo id architecto laborum iure error, . Ex earum tenetur odit nemo id architecto laborum iure error,',
             spalva: '',
@@ -81,7 +81,7 @@ const feed = [{
             avataras: 'avataras.png',
             nuoroda: '#',
         },
-        laikas: 1583832434388,
+        laikas: 8000000,
         pranesimas: {
             tekstas: 'Labas',
             spalva: '',
@@ -99,7 +99,7 @@ const feed = [{
             avataras: 'avataras.png',
             nuoroda: '#',
         },
-        laikas: 1583832434388,
+        laikas: 80000000,
         pranesimas: {
             tekstas: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, veniam quia totam nemo, tempore delectus, illum rem necessitatibus minus maxime et odit vel explicabo ullam! Tenetur iusto velit delectus et ex numquam repellat natus, eaque esse sint iste consectetur placeat nesciunt quos vel commodi? Aliquam modi facilis nulla consequatur illum.',
             spalva: '',
