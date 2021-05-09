@@ -1,15 +1,14 @@
 function getData(data) {
 
     let HTML = '';
-    let feedBlock = document.querySelector('.feed');
+    let feed = document.querySelector('.feed');
 
     if (Array.isArray(data)) {
         console.log(data);
         for (let i = 0; i < data.length; i++) {
-            // time = timeGone(data[i]);
             HTML += getList(data[i]);
         }
-        return feedBlock.innerHTML = HTML;
+        return feed.innerHTML = HTML;
     } else {
         console.log('Nemasyvas');
     }
