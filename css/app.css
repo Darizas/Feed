@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper .main .feed .block .block__comment .comment .comment__img {
-  max-width: 30px;
+  width: 30px;
   height: 30px;
   border-radius: 50%;
   object-fit: cover;
