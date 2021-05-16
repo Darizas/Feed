@@ -4,7 +4,7 @@ function getData(data) {
     let feed = document.querySelector('.feed');
 
     if (Array.isArray(data)) {
-        console.log(data);
+        // console.log(data);
         // for (let i = 0; i < data.length; i++) {
         //     HTML += getList(data[i]);
         // }
@@ -46,7 +46,9 @@ function blockHead(who, timer) {
 
 function blockMain(text) {
     let main = `<div class="block__main">
-                    <p>${text.tekstas}</p></div>`;
+                    <p>${text.tekstas}</p>
+                    <div class="gallery">${getGallery(text.paveiksliukai)}</div>
+                </div>`;
     return main;
 }
 
@@ -104,6 +106,20 @@ function getAvatar(img) {
     }
     let avatar = `${img.avataras}`;
     return avatar;
+}
+
+function getGallery(img) {
+
+    let HTML = '';
+    if (img.length > 0) {
+        HTML = `<img class="img0" src="./img/${img[0]}" alt="image">`
+        for (let i = 1; i < img.length; i++){
+            HTML += `<img class="img${i}" src="./img/${img[i]}" alt="image">`;
+        }
+    } else {
+        HTML = '';
+    }
+    return HTML;
 }
 
 getData(feed);

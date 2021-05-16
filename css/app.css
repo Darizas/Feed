@@ -184,6 +184,19 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid grey;
 }
 
+.wrapper .main .feed .block .block__main .gallery {
+  display: grid;
+  grid-template-areas: 'img0 .' 'img0 .' 'img0 .';
+}
+
+.wrapper .main .feed .block .block__main .gallery .img0 {
+  grid-area: img0;
+}
+
+.wrapper .main .feed .block .block__main .gallery .imgs {
+  grid-area: imgs;
+}
+
 .wrapper .main .feed .block .block__comment {
   width: 100%;
 }

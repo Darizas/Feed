@@ -14,7 +14,9 @@ const feed = [{
             tekstas: 'Sveiki, as esu Tomas.',
             spalva: '',
             paveiksliukai: [
-
+                '1.png',
+                '2.png',
+                '3.png',
             ]
         }
     },

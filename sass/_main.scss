@@ -89,6 +89,19 @@
             .block__main {
                 padding: 5px 0 10px;
                 border-bottom: 1px solid grey;
+                .gallery {
+                    display: grid;
+                    grid-template-areas:    'img0 .'
+                                            'img0 .'
+                                            'img0 .';
+                    // column-gap: 5px;
+                    .img0 {
+                        grid-area: img0;
+                    }
+                    .imgs {
+                        grid-area: imgs;
+                    }
+                }
             }
             .block__comment {
                 width: 100%;
