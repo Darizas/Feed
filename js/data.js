@@ -34,7 +34,9 @@ const feed = [{
             tekstas: 'Neturiu komentaru....',
             spalva: '',
             paveiksliukai: [
-
+                '2.png',
+                '1.png',
+                '3.png',
             ]
         }
     },

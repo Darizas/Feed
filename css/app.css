@@ -186,15 +186,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper .main .feed .block .block__main .gallery {
   display: grid;
+  width: 100%;
+  max-height: 500px;
   grid-template-areas: 'img0 .' 'img0 .' 'img0 .';
+  grid-template-columns: minmax(3fr, max-content);
+  column-gap: 5px;
+  overflow: hidden;
 }
 
 .wrapper .main .feed .block .block__main .gallery .img0 {
   grid-area: img0;
-}
-
-.wrapper .main .feed .block .block__main .gallery .imgs {
-  grid-area: imgs;
 }
 
 .wrapper .main .feed .block .block__comment {

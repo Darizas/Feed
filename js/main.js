@@ -114,7 +114,7 @@ function getGallery(img) {
     if (img.length > 0) {
         HTML = `<img class="img0" src="./img/${img[0]}" alt="image">`
         for (let i = 1; i < img.length; i++){
-            HTML += `<img class="img${i}" src="./img/${img[i]}" alt="image">`;
+            HTML += `<img class="imgs" src="./img/${img[i]}" alt="image">`;
         }
     } else {
         HTML = '';
