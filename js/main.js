@@ -112,12 +112,9 @@ function getGallery(img) {
 
     let HTML = '';
     if (img.length > 0) {
-        HTML = `<img class="img0" src="./img/${img[0]}" alt="image">`
-        for (let i = 1; i < img.length; i++){
-            HTML += `<img class="imgs" src="./img/${img[i]}" alt="image">`;
+        for (let i = 0; i < img.length; i++){
+            HTML += `<img src="./img/${img[i]}" alt="image">`;
         }
-    } else {
-        HTML = '';
     }
     return HTML;
 }

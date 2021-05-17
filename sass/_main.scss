@@ -90,21 +90,18 @@
                 padding: 5px 0 10px;
                 border-bottom: 1px solid grey;
                 .gallery {
-                    display: grid;
-                    width: 100%;
-                    max-height: 500px;
-                    grid-template-areas:    'img0 .'
-                                            'img0 .'
-                                            'img0 .';
-                    grid-template-columns: minmax(3fr, max-content);
-                    column-gap: 5px;
-                    overflow: hidden;
-                    .img0 {
-                        grid-area: img0;
-                    }
-                    .imgs {
-                        
-                    }
+                    // display: grid;
+                    // width: 100%;
+                    // max-height: 500px;
+                    // grid-template-areas:    'img0 .'
+                    //                         'img0 .'
+                    //                         'img0 .';
+                    // grid-template-columns: 60% 40%;
+                    // column-gap: 5px;
+                    // overflow: hidden;
+                    // .img0 {
+                    //     grid-area: img0;
+                    // }
                 }
             }
             .block__comment {
